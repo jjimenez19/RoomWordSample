@@ -47,7 +47,7 @@ public abstract class WordRoomDatabase extends RoomDatabase {
                 // Populate the database in the background.
                 // If you want to start with more words, just add them.
                 WordDao dao = INSTANCE.wordDao();
-                dao.deleteAll();
+               // dao.deleteAll();
 
                 Word word = new Word("Hello");
                 dao.insert(word);

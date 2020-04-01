@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, NEW_WORD_ACTIVITY_REQUEST_CODE);
             }
         });
+
+
+
+
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
